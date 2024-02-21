@@ -1,0 +1,252 @@
+@media (min-width: 1200px) {
+    .m{display: none;}
+    .t{display: none;}
+    .p{display: block;}
+
+
+    header .wrap nav{
+        position: unset;
+        top: unset;
+        left: unset;
+        width: unset;
+        height: unset;
+        background-color: unset;
+        overflow: unset;
+        z-index: 10;
+    }
+
+    header .wrap nav .inner .top{
+        display: none;
+    }
+
+    header .wrap nav .inner .logo{
+        display: none;
+    }
+
+    header .wrap nav .inner .gnb{
+        display: flex;
+        position: absolute;
+        top: 90px;
+        right: 30px;
+    }
+
+    header .wrap nav .inner .gnb li a{
+        display: block;
+        background-color: unset;
+        padding: 0 40px;
+        font-size: 20px;
+        font-weight: lighter;
+        color: white;
+        border-top: 1px solid #F7651D;
+        padding-top: 10px;
+    }
+
+    header .wrap nav .inner{
+        background-color: unset;
+    }
+
+    header .wrap nav .inner .bottom{
+        background-color: unset;
+    }
+
+    header .wrap .menu .nav-opn button{
+        display: none;
+    }
+
+    header .wrap nav .inner .bottom .ticket{
+        position: absolute;
+        top: 30px;
+        right: 50px;
+    }
+
+    header .wrap .link{
+        top: 30px;
+        right: 220px;
+    }
+
+    header .wrap .link li img{
+        width: 30px;
+    }
+
+    header .wrap nav .inner .bottom h2{
+        font-weight: lighter;
+        top: 32px;
+        position: absolute;
+        right: 400px;
+        font-size: 20px;
+    }
+
+    header .wrap h1 a img{
+        width: 200px;
+    }
+
+    header .wrap h1{
+        padding-left: 30px;
+    }
+
+    header .wrap .purchase{
+        position: absolute;
+        top: 100%;
+        left: 20%;
+        font-size: 40px;
+        color: white;
+    }
+    
+    header .wrap .purchase .link{
+        top: 120%;
+        left: 20%;
+        font-size: 25px;
+        width: 240px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        text-align: left;
+        padding-left: 20px;
+        background-image: url(../images/direction-right.svg);
+        background-repeat: no-repeat;
+        background-position: 210px 2px;
+        background-size: 15px 40px;
+    }
+
+    .blue{
+        height: 600px;
+    }
+
+    .section1 .wrap{
+        max-width: 1200px;
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+
+    .section2 .wrap{
+        max-width: 1200px;
+        margin: 0 auto;
+        padding-top: 100px;
+    }
+
+    .section3 .wrap{
+        max-width: 1200px;
+        margin: 0 auto;
+        padding-top: 100px;
+    }
+
+    .section4 .wrap .SNS{
+        width: 520px;
+        height: 580px;
+    }
+
+    .section4 .wrap .text p{
+        padding-top: 20px;
+        padding-left: 20px;
+        font-size: 20px;
+    }
+
+    .section5 .context{
+        display: flex;
+    }
+
+    .section5 .wrap{
+        max-width: 1200px;
+        margin: 0 auto;
+        padding-top: 100px;
+    }
+
+    footer .wrap .top .topwrap{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    footer .wrap .middle .middlewrap{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    footer .wrap .bottom .bottomwrap{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .section4 .wrap{
+        padding-top: 400px;
+    }
+
+    .section4::after{
+        bottom: -50px;
+    }
+    
+    footer .top .topwrap{
+        display: flex;
+        gap: 50px;
+    }
+
+    footer .top .online{
+        display: unset;
+        align-items: center;
+    }
+    
+    footer .top .busan{
+        display: unset;
+        align-items: center;
+    }
+    
+    footer .top .company{
+        display: unset;
+        align-items: center;
+    }
+    
+    footer .top .policy{
+        display: unset;
+        align-items: center;
+    }
+
+    footer .top .topwrap li p{
+        padding-bottom: 20px;
+    }
+
+    footer .top .topwrap li{
+        padding-bottom: 5px;
+    }
+
+}
+
+@media (min-width: 1300px) {
+    .blue{
+        height: 800px;
+    }
+}
+
+@media (min-width: 1500px) {
+    .blue{
+        height: 900px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .blue{
+        height: 1000px;
+    }
+}
+
+@media (min-width: 1970px) {
+    .blue{
+        height: 1100px;
+    }
+}
+
+@media (min-width: 2150px) {
+    .blue{
+        height: 1200px;
+    }
+}
+
+@media (min-width: 2300px) {
+    .blue{
+        height: 1400px;
+    }
+}
+
+@media (min-width: 2500px) {
+    .blue{
+        height: 1500px;
+    }
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_레이어_2" data-name="레이어 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 28.01 28.01">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #282b91;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1" data-name="Layer 1">
+    <g>
+      <image width="29" height="29" transform="translate(-.99 -.99)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAdCAYAAABWk2cPAAAACXBIWXMAAAsSAAALEgHS3X78AAAAXUlEQVRIie2XOQ4AIAgEF///Z4yFxngWBizYqYwkjGyFggOqqqf6DRFZ9p8uX0U7+ge0g5VspMiTh2gSw3HKypdJ/8TrHS1CxUsppZRSSmkQKdcVU4LtvT3m3woAGSXXICfwm1+1AAAAAElFTkSuQmCC"/>
+      <g>
+        <path class="cls-1" d="m18.35,3.75h-8.69c-3.28,0-5.94,2.66-5.94,5.94v8.69c0,3.28,2.66,5.94,5.94,5.94h8.69c3.28,0,5.94-2.66,5.94-5.94v-8.69c0-3.28-2.66-5.94-5.94-5.94Zm4.04,14.78c0,2.18-1.76,3.94-3.94,3.94h-8.9c-2.18,0-3.94-1.76-3.94-3.94v-8.9c0-2.18,1.76-3.94,3.94-3.94h8.9c2.18,0,3.94,1.76,3.94,3.94v8.9Z"/>
+        <path class="cls-1" d="m14,8.75c-2.95,0-5.34,2.39-5.34,5.34s2.39,5.34,5.34,5.34,5.34-2.39,5.34-5.34-2.39-5.34-5.34-5.34Zm0,8.79c-1.91,0-3.46-1.55-3.46-3.46s1.55-3.46,3.46-3.46,3.46,1.55,3.46,3.46-1.55,3.46-3.46,3.46Z"/>
+        <circle class="cls-1" cx="19.52" cy="8.55" r="1.24"/>
+      </g>
+    </g>
+  </g>
+</svg>
