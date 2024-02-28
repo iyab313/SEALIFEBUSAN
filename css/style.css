@@ -24,7 +24,7 @@ button, input, select, option, textarea{border: 0; background-color: transparent
 
 .wrapper{
     min-width: 360px;
-    overflow: hidden;
+    overflow: hidden !important;
 }
 
 header{
@@ -420,6 +420,7 @@ header .wrap nav .inner .bottom .ticket{
     padding-top: 40px;
     padding-right: 40px;
     padding-left: 40px;
+    overflow: hidden;
 }
 
 .section2 .wrap h1{
