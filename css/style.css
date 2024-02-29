@@ -784,7 +784,7 @@ footer .middle .mark{
 }
 
 footer .middle .mark img{
-    height: 60px;
+    height: 40px;
 }
 
 footer .middle .sns{
@@ -810,7 +810,7 @@ footer .bottom{
 
 footer .bottom p{
     font-weight: lighter;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .swiper-button-prev,
