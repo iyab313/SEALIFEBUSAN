@@ -34,7 +34,7 @@
         display: block;
         background-color: unset;
         padding: 0 40px;
-        font-size: 20px;
+        font-size: 25px;
         font-weight: lighter;
         color: white;
         border-top: 1px solid #F7651D;
@@ -57,6 +57,7 @@
         position: absolute;
         top: 30px;
         right: 50px;
+        font-size: 23px;
     }
 
     header .wrap .link{
@@ -73,7 +74,7 @@
         top: 32px;
         position: absolute;
         right: 400px;
-        font-size: 20px;
+        font-size: 25px;
     }
 
     header .wrap h1 a img{
@@ -91,9 +92,13 @@
         font-size: 40px;
         color: white;
     }
+
+    header .wrap .purchase h2{
+        font-size: 70px;
+    }
     
     header .wrap .purchase .link{
-        top: 120%;
+        top: 150%;
         left: 20%;
         font-size: 25px;
         width: 240px;
@@ -108,14 +113,35 @@
         background-size: 15px 40px;
     }
 
+    header .wrap .purchase a{
+        font-size: 33px;
+    }
+
     .blue{
         height: 600px;
+    }
+
+    .section1 .wrap .context .box .text h2{
+        font-size: 28px;
+        padding-top: 25px;
+    }
+
+    .section1 .wrap .context .box .text p{
+        font-size: 16px;
     }
 
     .section1 .wrap{
         max-width: 1200px;
         margin: 0 auto;
         padding-bottom: 30px;
+    }
+
+    .section1 .wrap h1{
+        font-size: 25px;
+    }
+
+    .section2 .wrap h1, .section3 .wrap h1, .section4 .wrap h1, .section5 .wrap h1{
+        font-size: 35px;
     }
 
     .section2 .wrap{
@@ -151,6 +177,14 @@
         padding-top: 100px;
     }
 
+    .section4 .wrap h1::before{
+        top: -120%;
+    }
+
+    .section5 .wrap h1::before{
+        top: -120%;
+    }
+
     footer .wrap .top .topwrap{
         max-width: 1200px;
         margin: 0 auto;
@@ -172,6 +206,21 @@
 
     .section4::after{
         bottom: -50px;
+    }
+
+    footer .top{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    footer .middle{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    footer .bottom{
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
     
     footer .top .topwrap{
@@ -206,6 +255,28 @@
     footer .top .topwrap li{
         padding-bottom: 5px;
     }
+
+    .section1 .wrap{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .section2 .wrap{
+        padding-top: 140px;
+        padding-bottom: 130px;
+    }
+
+    .section3 .wrap{
+        padding-top: 140px;
+        padding-bottom: 130px;
+    }
+
+    .section5 .wrap{
+        padding-top: 200px;
+        padding-bottom: 130px;
+    }
+
+
 
 }
 

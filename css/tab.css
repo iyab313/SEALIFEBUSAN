@@ -26,8 +26,43 @@
         background-size: 10px 40px;
     }
 
+    header .wrap h1 a img{
+        width: 200px;
+    }
+
+    header .wrap .link li img{
+        width: 60px;
+    }
+
+    header .wrap .menu .nav-opn button{
+        top: 20px;
+        right: 30px;
+        width: 60px;
+    }
+
+    header .wrap .menu .nav-opn button img{
+        width: 60px;
+    }
+
+    header .wrap .link{
+        padding-right: 20px;
+    }
+
+    header .wrap .purchase a{
+        font-size: 25px;
+    }
+
+    header .wrap .purchase h2{
+        font-size: 40px;
+    }
+
+
     .blue{
         height: 400px;
+    }
+
+    .section1 .wrap h1{
+        font-size: 20px;
     }
 
     .section1 .wrap .context{
@@ -60,6 +95,10 @@
         height: 90%;
         margin-right: 20px;
     }
+
+    .section2 .wrap h1, .section3 .wrap h1, .section4 .wrap h1, .section5 .wrap h1{
+        font-size: 30px;
+    }
     
     .section1 .wrap .context .box .text h2{
         font-weight: lighter;
@@ -69,13 +108,17 @@
         background-repeat: no-repeat;
         background-size: 10px 40px;
         background-position: right 10px top 25px;
-        font-size: 20px;
+        font-size: 23px;
+    }
+
+    .section2 .wrap .show .swiper-wrapper .swiper-slide a h2, .section3 .wrap .exhibition .swiper-wrapper .swiper-slide a h2{
+        font-size: 28px;
     }
     
     .section1 .wrap .context .box .text p{
         padding-left: 30px;
         padding-right: 30px;
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .section4 .wrap{
@@ -113,8 +156,73 @@
         padding-left: 90px;
     }
 
+    .section4 .wrap .text p{
+        font-size: 20px;
+    }
+
     .section5 .wrap{
         padding-top: 150px;
+    }
+
+    .section5 .context a .text h2{
+        font-size: 35px;
+    }
+
+    .section5 .context a .text p{
+        font-size: 22px;
+    }
+
+    footer .top li p{
+        font-size: 27px;
+    }
+
+    footer .top li{
+        font-size: 20px;
+    }
+
+    footer .middle .sns img{
+        width: 50px;
+    }
+
+    footer .middle .mark img{
+        height: 60px;
+    }
+
+    footer .bottom p{
+        font-size:  16px;
+    }
+
+    .section1 .wrap{
+        padding-bottom: 30px;
+    }
+
+    .section2 .wrap{
+        padding-top: 100px;
+        padding-bottom: 30px;
+    }
+
+    .section3 .wrap{
+        padding-top: 100px;
+        padding-bottom: 30px;
+    }
+
+    footer .top{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    footer .middle{
+        padding-top: 13px;
+        padding-bottom: 13px;
+    }
+
+    footer .bottom{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    footer .middle .sns{
+        gap: 15px;
     }
 
 }
