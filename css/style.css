@@ -78,16 +78,16 @@ header .wrap{
 header .wrap .menu .nav-opn button{
     width: 40px;
     position: absolute;
-    right: 20px;
-    top: 20px;
+    right: 30px;
+    top: 17px;
 }
 
 header .wrap .menu .nav-opn button img{
-    width: 50px;
+    width: 20px;
 }
 
 header .wrap h1 a img{
-    width: 150px;
+    width: 100px;
 }
 
 header .wrap .link{
@@ -102,7 +102,7 @@ header .wrap .link li{
 }
 
 header .wrap .link li img{
-    width: 40px;
+    width: 20px;
 }
 
 header .wrap .purchase{
@@ -115,6 +115,7 @@ header .wrap .purchase{
 
 header .wrap .purchase h2{
     font-weight: lighter;
+    font-size: 20px;
 }
 
 header .wrap .purchase .link{
@@ -138,6 +139,10 @@ header .wrap .purchase .link{
 header .wrap .purchase .link:hover{
     background-color: rgba(0, 0, 0, 0.5);
     transition: 0.3s;
+}
+
+header .wrap .purchase .link{
+    font-size: 16px;
 }
 
 header .wrap nav{
@@ -242,6 +247,7 @@ header .wrap nav .inner .bottom .ticket{
 .section1 .wrap{
     padding-right: 40px;
     padding-left: 40px;
+    position: relative;
 }
 
 .section1 .wrap::after{
@@ -338,6 +344,7 @@ header .wrap nav .inner .bottom .ticket{
 
 .section1 .wrap .context{
     order: 1;
+    overflow: hidden;
 }
 
 
@@ -404,23 +411,26 @@ header .wrap nav .inner .bottom .ticket{
     background-repeat: no-repeat;
     background-size: 10px 40px;
     background-position: right 20px top 30px;
+    font-size: 22px;
 }
 
 .section1 .wrap .context .box .text p{
     padding-left: 60px;
+    font-size: 14px;
 }
 
 .section2{
     background-color: #1C1F6B;
     border-top: 1px solid #F7651D;
     padding-bottom: 50px;
+    position: relative;
 }
 
 .section2 .wrap{
     padding-top: 40px;
     padding-right: 40px;
     padding-left: 40px;
-    overflow: hidden;
+    overflow: hidden !important;
 }
 
 .section2 .wrap h1{
@@ -430,7 +440,7 @@ header .wrap nav .inner .bottom .ticket{
     position: relative;
     z-index: 9999;
     background-image: url(../images/star.svg);
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .section2 .wrap .show{
@@ -443,7 +453,7 @@ header .wrap nav .inner .bottom .ticket{
     position: absolute;
     bottom: 20px;
     left: 20px;
-    
+    font-size: 20px;
 }
 
 
@@ -451,12 +461,14 @@ header .wrap nav .inner .bottom .ticket{
     background-color: #282b91;
     border-top: 1px solid #F7651D;
     padding-bottom: 50px;
+    position: relative;
 }
 
 .section3 .wrap{
     padding-top: 40px;
     padding-right: 40px;
     padding-left: 40px;
+    overflow: hidden;
 }
 
 .section3 .wrap::after{
@@ -494,7 +506,7 @@ header .wrap nav .inner .bottom .ticket{
     position: relative;
     z-index: 9999;
     background-image: url(../images/star.svg);
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .section3 .wrap .exhibition{
@@ -508,7 +520,7 @@ header .wrap nav .inner .bottom .ticket{
     position: absolute;
     bottom: 20px;
     left: 20px;
-    
+    font-size: 20px;
 }
 
 .section4 .wrap .SNS{
@@ -553,7 +565,7 @@ header .wrap nav .inner .bottom .ticket{
     display: block;
     background-image: url(../images/jellyfish.svg);
     background-repeat: no-repeat;
-    width: 15%;
+    width: 20%;
     height: 20%;
     position: absolute;
     bottom: -20%;
@@ -566,7 +578,7 @@ header .wrap nav .inner .bottom .ticket{
     text-align: center;
     padding-bottom: 30px; 
     position: relative;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .section4 .wrap h1::before{
@@ -599,7 +611,7 @@ header .wrap nav .inner .bottom .ticket{
 
 .section5 .wrap h1{
     position: relative;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .section5 .wrap::after{
@@ -632,9 +644,9 @@ header .wrap nav .inner .bottom .ticket{
 
 .section4 .wrap .text p{
     padding-top: 10px;
-    padding-left: 40px;
+    padding-left: 60px;
     font-size: 15px;
-    padding-right: 40px;
+    padding-right: 60px;
 }
 
 .section5 {
@@ -656,7 +668,9 @@ header .wrap nav .inner .bottom .ticket{
 .section5 .wrap h1{
     color: #1C1F6B;
     text-align: center;
-    padding-bottom: 30px;}
+    padding-bottom: 30px;
+    font-size: 22px;
+}
 
 
 .section5 .context img{
@@ -717,7 +731,7 @@ footer .top{
 
 footer .top li{
     padding-right: 20px;
-    font-size: 13px;
+    font-size: 14px;
     white-space: nowrap;
 }
 
@@ -728,21 +742,29 @@ footer .top li p{
 footer .top .online{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
 }
 
 footer .top .busan{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
 }
 
 footer .top .company{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
 }
 
 footer .top .policy{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
 }
 
 footer .middle{
@@ -773,7 +795,7 @@ footer .middle .sns li{
 }
 
 footer .middle .sns img{
-    width: 40px;
+    width: 30px;
 }
 
 footer .bottom{
