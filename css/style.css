@@ -197,7 +197,7 @@ header .wrap nav .inner .gnb li a{
     display: block;
     background-color: white;
     padding: 35px 20px;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
 }
 
@@ -215,14 +215,14 @@ header .wrap nav .inner .bottom{
 
 header .wrap nav .inner .bottom h2{
     padding-bottom: 10px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 header .wrap nav .inner .bottom .ticket{
     background-image: url(../images/ticket.svg);
     background-repeat: no-repeat;
     padding-left: 40px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .blue{
