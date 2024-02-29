@@ -713,9 +713,12 @@ header .wrap nav .inner .bottom .ticket{
 .section5 .context a .text:hover{
     opacity: 1;
 }
+.section5 .context a .text h2{
+    font-size: 20px;
+}
 
 .section5 .context a .text p{
-    font-size: 15px;
+    font-size: 14px;
 }
 
 footer{
